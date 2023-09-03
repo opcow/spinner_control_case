@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'booster_mount.step',
-/* time_stamp */ '2023-09-02T03:07:21-04:00',
+/* name */ 'booster-mount.step',
+/* time_stamp */ '2023-09-03T13:51:02-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -25,7 +25,7 @@ DATA;
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#1044,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#1036);
 #13=STYLED_ITEM('',(#1053),#14);
-#14=MANIFOLD_SOLID_BREP('booster_mount',#643);
+#14=MANIFOLD_SOLID_BREP('booster-mount',#643);
 #15=CYLINDRICAL_SURFACE('',#662,1.8);
 #16=CYLINDRICAL_SURFACE('',#666,1.8);
 #17=FACE_BOUND('',#83,.T.);
@@ -1114,16 +1114,16 @@ SOLID_ANGLE_UNIT()
 #1043=PRODUCT_DEFINITION_SHAPE('',$,#1046);
 #1044=SHAPE_REPRESENTATION('',(#656),#1036);
 #1045=PRODUCT_DEFINITION_CONTEXT('part definition',#1050,'design');
-#1046=PRODUCT_DEFINITION('booster_mount','booster_mount',#1047,#1045);
+#1046=PRODUCT_DEFINITION('booster-mount','booster-mount',#1047,#1045);
 #1047=PRODUCT_DEFINITION_FORMATION('',$,#1052);
-#1048=PRODUCT_RELATED_PRODUCT_CATEGORY('booster_mount','booster_mount',
+#1048=PRODUCT_RELATED_PRODUCT_CATEGORY('booster-mount','booster-mount',
 (#1052));
 #1049=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1050);
 #1050=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1051=PRODUCT_CONTEXT('part definition',#1050,'mechanical');
-#1052=PRODUCT('booster_mount','booster_mount',$,(#1051));
+#1052=PRODUCT('booster-mount','booster-mount',$,(#1051));
 #1053=PRESENTATION_STYLE_ASSIGNMENT((#1054));
 #1054=SURFACE_STYLE_USAGE(.BOTH.,#1055);
 #1055=SURFACE_SIDE_STYLE('',(#1056));

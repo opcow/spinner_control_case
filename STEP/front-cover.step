@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'front_cover.step',
-/* time_stamp */ '2023-09-02T03:07:04-04:00',
+/* name */ 'front-cover.step',
+/* time_stamp */ '2023-09-03T13:49:30-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -25,7 +25,7 @@ DATA;
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#2344,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#2336);
 #13=STYLED_ITEM('',(#2353),#14);
-#14=MANIFOLD_SOLID_BREP('front_cover',#1347);
+#14=MANIFOLD_SOLID_BREP('front-cover',#1347);
 #15=FACE_BOUND('',#172,.T.);
 #16=FACE_BOUND('',#173,.T.);
 #17=FACE_BOUND('',#174,.T.);
@@ -2403,15 +2403,15 @@ SOLID_ANGLE_UNIT()
 #2343=PRODUCT_DEFINITION_SHAPE('',$,#2346);
 #2344=SHAPE_REPRESENTATION('',(#1360),#2336);
 #2345=PRODUCT_DEFINITION_CONTEXT('part definition',#2350,'design');
-#2346=PRODUCT_DEFINITION('front_cover','front_cover',#2347,#2345);
+#2346=PRODUCT_DEFINITION('front-cover','front-cover',#2347,#2345);
 #2347=PRODUCT_DEFINITION_FORMATION('',$,#2352);
-#2348=PRODUCT_RELATED_PRODUCT_CATEGORY('front_cover','front_cover',(#2352));
+#2348=PRODUCT_RELATED_PRODUCT_CATEGORY('front-cover','front-cover',(#2352));
 #2349=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#2350);
 #2350=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #2351=PRODUCT_CONTEXT('part definition',#2350,'mechanical');
-#2352=PRODUCT('front_cover','front_cover',$,(#2351));
+#2352=PRODUCT('front-cover','front-cover',$,(#2351));
 #2353=PRESENTATION_STYLE_ASSIGNMENT((#2354));
 #2354=SURFACE_STYLE_USAGE(.BOTH.,#2355);
 #2355=SURFACE_SIDE_STYLE('',(#2356));
