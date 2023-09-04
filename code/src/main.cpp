@@ -280,22 +280,22 @@ void scroll(int16_t pos)
 
   static bool pressed = false;
   static int16_t prev = 0;
-  int16_t dir = pos - prev;
+  int16_t delta = pos - prev;
 
   if (!pressed)
   {
     if (!digitalRead(Button3))
     {
-      if (dir < -DEAD_ZONE)
+      if (delta < -DEAD_ZONE)
         rep.x_axis = 0;
-      else if (dir > DEAD_ZONE)
+      else if (delta > DEAD_ZONE)
         rep.x_axis = 255;
     }
     else
     {
-      if (dir > DEAD_ZONE)
+      if (delta > DEAD_ZONE)
         rep.y_axis = 0;
-      else if (dir < -DEAD_ZONE)
+      else if (delta < -DEAD_ZONE)
         rep.y_axis = 255;
     }
     prev = pos;
