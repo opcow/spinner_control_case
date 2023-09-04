@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'board-mount-b.step',
-/* time_stamp */ '2023-09-03T13:42:39-04:00',
+/* name */ 'mcu-mount-b.step',
+/* time_stamp */ '2023-09-04T10:10:04-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -3761,16 +3761,15 @@ SOLID_ANGLE_UNIT()
 #3675=PRODUCT_DEFINITION_SHAPE('',$,#3678);
 #3676=SHAPE_REPRESENTATION('',(#2164),#3668);
 #3677=PRODUCT_DEFINITION_CONTEXT('part definition',#3682,'design');
-#3678=PRODUCT_DEFINITION('board-mount-b','board-mount-b',#3679,#3677);
+#3678=PRODUCT_DEFINITION('mcu-mount-b','mcu-mount-b',#3679,#3677);
 #3679=PRODUCT_DEFINITION_FORMATION('',$,#3684);
-#3680=PRODUCT_RELATED_PRODUCT_CATEGORY('board-mount-b','board-mount-b',
-(#3684));
+#3680=PRODUCT_RELATED_PRODUCT_CATEGORY('mcu-mount-b','mcu-mount-b',(#3684));
 #3681=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#3682);
 #3682=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3683=PRODUCT_CONTEXT('part definition',#3682,'mechanical');
-#3684=PRODUCT('board-mount-b','board-mount-b',$,(#3683));
+#3684=PRODUCT('mcu-mount-b','mcu-mount-b',$,(#3683));
 #3685=PRESENTATION_STYLE_ASSIGNMENT((#3686));
 #3686=SURFACE_STYLE_USAGE(.BOTH.,#3687);
 #3687=SURFACE_SIDE_STYLE('',(#3688));
