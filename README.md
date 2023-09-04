@@ -1,4 +1,5 @@
 # Spinner Control Case
+A case for a spinner control for arcade games.
 
 The case lid can be flipped for right handed or left handed spinner operation. The button assembly uses micro switches taken from an old mouse.
 
