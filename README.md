@@ -42,3 +42,5 @@ If you mess up during these steps press escape and try again.
 ![exploded view](images/case-exploded.png)
 ---
 ![switch carrier](images/switch-carrier.png)
+---
+![prototype](images/proto.jpg)
