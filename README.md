@@ -34,7 +34,7 @@ To configure the spinner in the MiSTer UI do the following:
 * When asked to press `DOWN`, release button 4 and turn the spinner counter-clockwise
 * Skip the 2 tilt tests
 * Hold button 4 and turn the spinner CW then CCW to define `RIGHT` AND `LEFT`
-* Release button 4 then turn the spinner CCW then CW to define `UP` and `DOWN`
+* Release button 4 then turn the spinner CCW then CW to define `DOWN` and `UP`
 * Toggle scrolling mode off
 * Press and release buttons 1-4 to define `A`, `B`, `X`, and `Y`
 * Press enter on the keyboard to save the configuration
